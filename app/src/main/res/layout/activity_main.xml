@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ashen.firebase.ui.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="banner"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_interstitial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_banner"
+        android:layout_marginTop="30dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="interstitial"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_rewarded_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_interstitial"
+        android:layout_marginTop="30dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="rewarded-video"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
