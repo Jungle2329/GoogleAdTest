@@ -15,6 +15,9 @@ import com.google.android.gms.ads.reward.RewardedVideoAd
 import com.google.android.gms.ads.reward.RewardedVideoAdListener
 import kotlinx.android.synthetic.main.activity_main.*
 
+/**
+ * https://developers.google.com/admob/android/rewarded-video
+ */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var mInterstitialAd: InterstitialAd
